@@ -52,7 +52,8 @@ export default {
     },
     doneIdea(id) {
       console.log("doneIdea", id);
-      this.$store.dispatch('doneIdea', id);
+    this.$store.dispatch('doneIdea', id);
+    
     }
   },
 }

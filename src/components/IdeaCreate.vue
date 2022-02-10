@@ -29,6 +29,7 @@ export default {
                 done: false,
             }
             this.$store.dispatch('createIdea', idea);
+           
             console.log(this.title);
             this.title="";
             this.description="";
